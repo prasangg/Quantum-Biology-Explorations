@@ -1,0 +1,87 @@
+# Python bytecode
+*.pyc
+*.pyd
+*.pyo
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb-checkpoint
+.ipynb_temp/
+ipynb_tmp/
+
+# IPython history file
+.ipython_history
+
+# Spyder project files
+.spyderproject
+.spyproject
+
+# VS Code specific files
+.vscode/
+
+# PyCharm specific files
+.idea/
+.PyCharm*/
+.pytest_cache/
+
+# Data files (if you have large data that you don't want to commit)
+# Uncomment these lines and specify patterns if you have data files to ignore.
+# /data/
+# *.csv
+# *.txt
+# *.npy
+# *.npz
+# *.pkl
+# *.bin
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# macOS specific files
+.DS_Store
+.localized
+# Resource forks, common on network shares or older systems
+._*
+
+# OS generated files (cross-platform, but often seen on macOS with external drives)
+Thumbs.db
+ehthumbs.db
+.Trash-*
+
+# Package management (e.g., poetry, pipenv)
+Pipfile.lock # If using Pipenv, you might want to keep this
+poetry.lock # If using Poetry, you might want to keep this
+
+# Python testing specific (pytest)
+.pytest_cache/
+
+# Misc
+*.bak
+*.swp
+*~
